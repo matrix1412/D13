@@ -48,6 +48,7 @@ nav {
     padding-right: 70px;
     display: flex;
     justify-content: space-around;
+
 }
 
 #top-nav a {
@@ -114,17 +115,21 @@ main {
 article h2{
     color: black;
 }
-.btn{
-    padding: 12px 12px;
-    color: darkorange;
-    background-color: black;
-    display: inline-block;
+.button-flat-outline {
+    border: 1px solid #801515;        
+    background-image: linear-gradient(360deg,rgb(163, 67, 201),rgb(58, 112, 211));         
+    color: white;                   
+    font-size: 16px;                  
+    padding: 0.5em 1em 0.5em 1em;     
 }
-.btn:active {
-    box-shadow: none;
-    position: relative;
-    top: 7px;
+.button-flat-outline:hover {
+    opacity: 0.8;                     
 }
+.button-flat-outline:active {
+    background: #550000;             
+    color: #FFFFFF;                      
+}
+
 .jdl {
     text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -215,4 +220,5 @@ h2 {
     text-align: center;
     font-size: 30px;
     margin-bottom: 5%;
+
 
