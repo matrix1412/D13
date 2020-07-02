@@ -228,27 +228,4 @@ h2 {
     margin-bottom: 5%;
 
 
-.btn-primary {
-    margin-left: 0px !important;
-    font-size: 12px !important;
-    height: 80% !important;
-    border-radius: 30px !important;
-    background-color: orange !important;
-    border-color: orange !important;
-    font-family: 'Comic Sans MS', sans-serif;
-    text-transform: uppercase;
-    color: white !important;
-
-.lesson-wrapper {
-    height: 500px;
-    padding-bottom: 80px;
-    background-color: #f7f7f7;
-    text-align: center;
-}
-
-.container {
-  width: 1170px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
 
