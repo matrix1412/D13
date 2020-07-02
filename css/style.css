@@ -34,6 +34,8 @@ nav {
 #side-nav {
     display: none;
     flex: 1;
+    position: fixed;
+    padding-left: 15px;
 }
 
 #logo {
@@ -55,25 +57,7 @@ nav {
 #top-nav a:hover {
     color: #c78500;
 }
-#search-nav {
-    flex: 1;
-    margin: auto;
-    display: flex;
-}
-.input-cari { 
-    flex: 2;
-    padding: 3px; 
-}
-.btn-cari { 
-    flex: 1;
-    padding: 3px; 
-    background-color: #ffa800;
-    border: none;
-}
-.btn-cari:hover { 
-    background-color: #c78500;
-    cursor: pointer;
-}
+
 /*BAGIAN UTAMA*/
 .top-wrapper {
   padding: 180px 0 100px 0;
