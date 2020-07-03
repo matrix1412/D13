@@ -87,31 +87,56 @@ main {
 }
 
 /*BAGIAN EXTRA*/
+#bagian-extra1 {
+    padding: 20px 10px;
+    margin: 10px 0;
+    background-color:#f8f8f8;
+}
+#bagian-extra2 {
+    padding: 20px 10px;
+    margin: 10px 0;
+}
 .container{
     display: flex;
-    text-align: center;
-    overflow: auto;
+    justify-content: space-between;
 }
+.card h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
 .box{
-    flex-grow: 1;
-    border: 1px solid gainsboro;
-    margin: 5px;
-    padding: 15px;
     background-color: turquoise;
-    width: 33%;
+    padding: 15px;
+    flex-basis: 32%;
+    border: 1px solid #dfdfdf;
+    box-shadow:3px 3px 8px #dfdfdf;
+    border-radius: 5px;
 }
 .images{
-    width: 20%;
+    /* width: 20%; */
     max-height: 100px;
     object-fit: cover;
     object-position: top;
 }
-.table{
-    border: 2px solid black;
+table{
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 70%;
+    margin-bottom: 10px;
 }
-.header-table{
+thead{
     background-color: darkorange;
 }
+th, td{
+    padding: 5px;
+}
+td:nth-child(2), 
+td:nth-child(3),
+td:nth-child(4) {
+    text-align: center;
+}
+
 article h2{
     color: black;
 }
@@ -130,25 +155,6 @@ article h2{
     color: #FFFFFF;                      
 }
 
-.jdl {
-    text-align: center;
-    font-family: 'Open Sans Condensed', sans-serif;
-}
-.col-lg-4 img{
-    width: 50%;
-    display: block;
-    margin: auto;
-}
-.col-lg-4 h6{
-    text-align: center;
-    margin-top: 3%;
-}
-
-.col-lg-4 p{
-    text-align: justify;
-    margin-left: 8%;
-    margin-right: 8%;
-}
 .tabel{
     background-color: #f9f9f9;
     padding-bottom: 20px;
