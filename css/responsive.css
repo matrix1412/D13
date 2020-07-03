@@ -1,3 +1,7 @@
+@media all and (max-width: 1000px) {
+  
+}
+
 @media all and (max-width: 768px) {
     #logo {
         margin-right: 30px;
@@ -9,7 +13,18 @@
     #search-nav {
         display: none;
     }
-
+    #footer-up {
+        display: block;
+    }
+    .footer-menu {
+        padding-top: 0;
+    }
+    .footer-follow {
+        margin-top: 20px;
+    }
+    .follow-img {
+        width: 80%;
+    }
     .box{
         flex-basis: 32%;
         margin-bottom: 20px;
@@ -46,19 +61,6 @@
         margin: 0 auto;
     }
     /*BAGIAN UTAMA*/
-    #bagian-utama {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-    .img-bagian-utama img {
-        width: 80%;
-    }
-    .slogan-bagian-utama p {
-        font-size: 1rem;
-    }
-    /*EXTRA*/
-    
     .container{
         margin-top: 0;
         flex-direction: column;
@@ -71,7 +73,18 @@
     table{
         width: 95%;
     }
-
+    #bagian-utama {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .img-bagian-utama img {
+        width: 80%;
+    }
+    .slogan-bagian-utama p {
+        font-size: 1rem;
+    }
+ 
     /*BAGIAN FOOTER*/
     #footer-up {
         padding: 20px 5px;
