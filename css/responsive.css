@@ -61,6 +61,19 @@
         margin: 0 auto;
     }
     /*BAGIAN UTAMA*/
+    #bagian-utama {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .img-bagian-utama img {
+        width: 80%;
+    }
+    .slogan-bagian-utama p {
+        font-size: 1rem;
+    }
+    /*EXTRA*/
+    
     .container{
         margin-top: 0;
         flex-direction: column;
@@ -72,17 +85,6 @@
 
     table{
         width: 95%;
-    }
-    #bagian-utama {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-    .img-bagian-utama img {
-        width: 80%;
-    }
-    .slogan-bagian-utama p {
-        font-size: 1rem;
     }
  
     /*BAGIAN FOOTER*/
@@ -106,4 +108,5 @@
         color: #ffa800;
     }
 
+}
 }
