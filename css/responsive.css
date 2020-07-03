@@ -1,3 +1,7 @@
+@media all and (max-width: 1000px) {
+  
+}
+
 @media all and (max-width: 768px) {
     #logo {
         margin-right: 30px;
@@ -8,14 +12,6 @@
     }
     #search-nav {
         display: none;
-    }
-
-    .box{
-        flex-basis: 32%;
-        margin-bottom: 20px;
-    }
-    table {
-        width: 80%;
     }
     #footer-up {
         display: block;
