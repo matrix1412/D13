@@ -13,6 +13,13 @@
     #search-nav {
         display: none;
     }
+  .box{
+        flex-basis: 32%;
+        margin-bottom: 20px;
+    }
+    table {
+        width: 80%;
+    }
     #footer-up {
         display: block;
     }
@@ -42,21 +49,7 @@
         margin: 0 auto;
     }
     /*BAGIAN UTAMA*/
-    .col-lg-4 img{
-        width: 50%;
-        display: block;
-        margin: auto;
-    }
     
-    .col-lg-4 h6{
-        text-align: center;
-    }
-    
-    .col-lg-4 p{
-        text-align: justify;
-        margin-left: 8%;
-        margin-right: 8%;
-    }
     #bagian-utama {
         display: flex;
         flex-direction: column;
@@ -67,6 +60,19 @@
     }
     .slogan-bagian-utama p {
         font-size: 1rem;
+    }
+    
+    /* EKSTRA */
+    .container{
+        margin-top: 0;
+        flex-direction: column;
+    }
+    .box{
+        flex-basis: 100%;
+        /* flex-direction: column; */
+    }
+    table{
+        width: 95%;
     }
  
     /*BAGIAN FOOTER*/
@@ -89,6 +95,4 @@
     .footer-menu-bottom a:hover{
         color: #ffa800;
     }
-    
-
 }
