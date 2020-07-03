@@ -79,12 +79,12 @@
         flex-direction: column;
     }
     .box{
-        flex-basis: 80%;
+        flex-basis: 100%;
         /* flex-direction: column; */
     }
 
     table{
-        width: 95%;
+        width: 80%;
     }
  
     /*BAGIAN FOOTER*/
