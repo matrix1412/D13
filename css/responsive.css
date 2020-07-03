@@ -1,230 +1,96 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Open Sans Condensed', sans-serif;
+@media all and (max-width: 768px) {
+    #logo {
+        margin-right: 30px;
+    }
+    #top-nav a{
+        margin-right: 0px;
+        margin-left: 10px;
+    }
+    #search-nav {
+        display: none;
+    }
+
+    .box{
+        flex-basis: 32%;
+        margin-bottom: 20px;
+    }
+    table {
+        width: 80%;
+    }
+    #footer-up {
+        display: block;
+    }
+    .footer-menu {
+        padding-top: 0;
+    }
+    .footer-follow {
+        margin-top: 20px;
+    }
+    .follow-img {
+        width: 80%;
+    }
 }
 
-body {
-  font-family: "Lucida Grande";
-}
+@media all and (max-width: 576px) {
+    nav {
+        flex: 1;
+    }
+    #side-nav {
+        display: flex;
+    }
+    #top-nav {
+        display: none;
+    }
+    #logo {
+        flex: 11;
+        margin: 0 auto;
+    }
+    /*BAGIAN UTAMA*/
+    #bagian-utama {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .img-bagian-utama img {
+        width: 80%;
+    }
+    .slogan-bagian-utama p {
+        font-size: 1rem;
+    }
+    /*EXTRA*/
+    
+    .container{
+        margin-top: 0;
+        flex-direction: column;
+    }
+    .box{
+        flex-basis: 100%;
+        /* flex-direction: column; */
+    }
 
-a {
-    text-decoration: none;
-    color: #fff;
-}
+    table{
+        width: 95%;
+    }
 
-/* HEADER */
-header {
-  height: 65px;
-  width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
-  position:fixed;
-  top:0;
-  z-index:10;
-}
-
-nav {
-    flex: 6;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-#side-nav {
-    display: none;
-    flex: 1;
-    position: fixed;
-    padding-left: 15px;
-}
-
-#logo {
-    flex: 1;
-    text-align: center;
-}
-
-#top-nav{
-    flex: 3;
-    padding-right: 70px;
-    display: flex;
-    justify-content: space-around;
-
-}
-
-#top-nav a {
-    letter-spacing: 2px;
-}
-
-#top-nav a:hover {
-    color: #c78500;
-}
-
-/*BAGIAN UTAMA*/
-.top-wrapper {
-  padding: 180px 0 100px 0;
-  background-image: url(https://wallpaperaccess.com/full/504405.jpg);
-  background-size: cover;
-  color: white;
-  text-align: center;
-}
-main {
-    margin: 20px 0;
-}
-#bagian-utama {
-    display: flex;
-}
-.img-bagian-utama {
-    flex: 1;
-}
-.img-bagian-utama img {
-    width: 75%;
-    padding-bottom: 0%;
-}
-.slogan-bagian-utama {
-    flex: 1;
-    margin: 30px;
+    /*BAGIAN FOOTER*/
+    #footer-up {
+        padding: 20px 5px;
+    }
+    .footer-menu {
+        display: none;
+    }
+    .follow-img {
+        width: 80%;
+    }
+    #footer-bottom {
+        font-size: 0.65em;
+    }
+    .footer-menu-bottom {
+        display: flex;
+        margin: 0 auto;
+    }
+    .footer-menu-bottom a:hover{
+        color: #ffa800;
+    }
 
 }
-
-/*BAGIAN EXTRA*/
-#bagian-extra1 {
-    padding: 20px 10px;
-    margin: 10px 0;
-    background-color:#f8f8f8;
-}
-#bagian-extra2 {
-    padding: 20px 10px;
-    margin: 10px 0;
-}
-.container{
-    display: flex;
-    justify-content: space-between;
-}
-.card h2 {
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.box{
-    background-color: turquoise;
-    padding: 15px;
-    flex-basis: 32%;
-    border: 1px solid #dfdfdf;
-    box-shadow:3px 3px 8px #dfdfdf;
-    border-radius: 5px;
-}
-.images{
-    /* width: 20%; */
-    max-height: 100px;
-    object-fit: cover;
-    object-position: top;
-}
-table{
-    border-collapse: collapse;
-    border: 1px solid black;
-    width: 70%;
-    margin-bottom: 10px;
-}
-thead{
-    background-color: darkorange;
-}
-th, td{
-    padding: 5px;
-}
-td:nth-child(2), 
-td:nth-child(3),
-td:nth-child(4) {
-    text-align: center;
-}
-
-article h2{
-    color: black;
-}
-.button-flat-outline {
-    border: 1px solid #801515;        
-    background-image: linear-gradient(360deg,rgb(163, 67, 201),rgb(58, 112, 211));         
-    color: white;                   
-    font-size: 16px;                  
-    padding: 0.5em 1em 0.5em 1em;     
-}
-.button-flat-outline:hover {
-    opacity: 0.8;                     
-}
-.button-flat-outline:active {
-    background: #550000;             
-    color: #FFFFFF;                      
-}
-
-.tabel{
-    background-color: #f9f9f9;
-    padding-bottom: 20px;
-    padding-top: 20px;
-}
-
-/* FOOTER */
-#footer-up {
-    background-color:#f9f9f9;
-    margin-top: 20px;
-    padding: 20px 50px;
-    border-bottom: 1px solid #f7f7f7;
-    display: flex;
-}
-.footer-menu {
-    padding-top: 40px;
-    flex: 1;
-    display: flex;
-    justify-content: space-around;
-}
-
-.footer-follow {
-    flex: 1;
-    text-align: center;
-}
-.footer-follow a {
-    color: #000;
-    margin: 0 10px;
-}
-
-.footer-follow a:hover {
-    color: #ffa800;
-}
-.follow-img {
-    width: 100%;
-} 
-
-
-.footer-link a {
-    color: #000;
-}
-.footer-link a:hover {
-    color: red;
-}
-
-
-#footer-bottom {
-    background-color: #234;
-    min-height: 40px;
-    font-size: 0.8em;
-    padding: 5px 0;
-    text-align: center;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-}
-.footer-menu-bottom {
-    display: none;
-}
-.footer-copyright {
-    margin: auto;
-}
-h2 {
-    align-content: center;
-}
-#posisi-info h2{
-    font-family: 'Comic Sans MS', sans-serif;
-    text-transform: lowercase;
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: 5%;
-
-
