@@ -155,12 +155,6 @@ article h2{
     color: #FFFFFF;                      
 }
 
-.tabel{
-    background-color: #f9f9f9;
-    padding-bottom: 20px;
-    padding-top: 20px;
-}
-
 /* FOOTER */
 #footer-up {
     background-color:#f9f9f9;
@@ -217,14 +211,6 @@ article h2{
 .footer-copyright {
     margin: auto;
 }
-h2 {
-    align-content: center;
-}
-#posisi-info h2{
-    font-family: 'Comic Sans MS', sans-serif;
-    text-transform: lowercase;
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: 5%;
+
 
 
